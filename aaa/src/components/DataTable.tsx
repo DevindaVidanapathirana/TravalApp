@@ -19,6 +19,7 @@ export function DataTable({ students, onViewProfile }: DataTableProps) {
   };
 
   const getRiskBadgeVariant = (
+    
     risk: Student["risk_level"]
   ): "default" | "secondary" | "destructive" => {
     if (risk === "Low") return "default";
